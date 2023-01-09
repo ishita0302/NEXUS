@@ -1,0 +1,206 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewpoint" content="width=device-width, initial-scale=1, shrink-to-fit=yes">
+  <meta name="description" content="login page to move into your account">
+  <meta name="author" content="Ishita Srivastava, Gurpreet Kaur and Kritika">
+  <title>NEXUS Categories page</title>
+
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+
+  <style>
+  #sidebar-wrapper .sidebar-heading 
+  {
+    padding: 1rem 1rem;
+    font-size: 1rem;
+  }
+  #sidebar-wrapper .list-group 
+  {
+    width: 14rem;
+  }
+  @media (min-width: 768px) 
+  {
+    #page-content-wrapper 
+    {
+      width: 100%;
+    }
+  }
+  footer 
+  {
+    padding: 10px 20px;
+    background: #0b5678;
+    color: white;
+  }
+  body 
+  {
+    background: #87edbd;
+  }
+  .card 
+  {
+    background: #f3f49a;
+  }
+  .jumbotron
+  {
+    background: #b4e4e8;
+  }
+  .breadcrumb
+  {
+    background: #b4e4e8;
+  }
+  </style>
+</head>
+
+<body>
+  <div class="d-flex" id="wrapper">
+    <div class="bg-dark border-right" id="sidebar-wrapper">
+      <div class="sidebar-heading"><a href="C:\Users\vanda\OneDrive\Desktop\HTML files\NEXUS\NEXUS home page.html"><img src="C:\Users\vanda\OneDrive\Desktop\HTML files\NEXUS\Nexus logo.png" style="width:30px" alt="NEXUS Logo"></a></div>
+      <div class="list-group">
+        <a href="C:\Users\vanda\OneDrive\Desktop\HTML files\NEXUS\NEXUS link page.html" class="list-group-item list-group-item-action bg-dark"><font color="white">All links</font></a>
+        <a href="C:\Users\vanda\OneDrive\Desktop\HTML files\NEXUS\NEXUS categories page.html" class="list-group-item list-group-item-action bg-dark"><font color="white">Categories</font></a>
+        <a href="C:\Users\vanda\OneDrive\Desktop\HTML files\NEXUS\NEXUS home page.html" class="list-group-item list-group-item-action bg-dark"><font color="white">Logout</font></a>
+      </div>
+    </div>
+
+    <div id="page-content-wrapper">
+      <nav class="navbar navbar-expand-lg">
+        <div class="collapse navbar-collapse">
+          <ul class="navbar-nav ml-1 mt-1">
+            <br/><br/>
+          </ul>
+        </div>
+      </nav><br/>
+
+    <div class="row">
+      <div class="col-md-1"></div>
+      <div class="col-md-10">
+        <nav aria-label="breadcrumb">
+          <ol class="breadcrumb">
+            <li class="breadcrumb-item"><a href="C:\Users\vanda\OneDrive\Desktop\HTML files\NEXUS\NEXUS link page.html">All links</a></li>
+            <li class="breadcrumb-item active" aria-current="page">Categories</li>
+          </ol>
+        </nav>
+      </div>
+      <div class="col-md-1"></div>
+    </div>
+
+    <div class="row">
+      <div class="col-md-1"></div>
+      <div class="col-md-10">
+        <div class="jumbotron">
+          <h1 class="display-4">Explore and Save!</h1>
+          <p class="lead">Add/Save new links to your categories.</p>
+          <hr class="my-3">
+          <form class="form-inline" method="post">
+            <h6> Add new link below: </h6>
+            <input type="text" class="form-control mb-2 mr-sm-2" style="width:90%" placeholder="URL..." autofocus>
+          </form>
+          <form class="form-inline" method="post">
+            <h6> Enter the category: </h6>
+            <input type="text" class="form-control mb-2 mr-sm-2" style="width:90%" placeholder="Category...">
+            <button type="submit" class="btn btn-secondary mb-2">Add</button>
+          </form>
+        </div>
+      </div>
+      <div class="col-md-1"></div>
+    </div>
+
+    <!--card1-->
+    <div class="row">
+      <div class="col-md-1"></div>
+      <div class="col-md-5">
+        <div class="card">
+          <img class="card-img-top" src="C:\Users\vanda\OneDrive\Desktop\HTML files\NEXUS\food.jpg" height="150" alt="Food image">
+          <div class="card-body">
+            <h5 class="card-title">Food</a></h5>
+          </div>
+          <div class="card-footer">
+            <div class="row">
+              <div class="col-md-8">
+                <a href=""><button type="button" class="btn btn-secondary">Show</button></a>
+                <a href=""><button type="button" class="btn btn-secondary">Share</button></a>
+                <a href=""><button type="button" class="btn btn-danger">Remove</button></a>
+              </div>
+            </div>
+          </div>
+        </div><br/>
+      </div><br/>
+      <!--card2-->
+      <div class="col-md-5">
+        <div class="card">
+          <img class="card-img-top" src="C:\Users\vanda\OneDrive\Desktop\HTML files\NEXUS\music.jpg" height="150" alt="Music image">
+          <div class="card-body">
+            <h5 class="card-title">Music</a></h5>
+          </div>
+          <div class="card-footer">
+            <div class="row">
+              <div class="col-md-8">
+                <a href=""><button type="button" class="btn btn-secondary">Show</button></a>
+                <a href=""><button type="button" class="btn btn-secondary">Share</button></a>
+                <a href=""><button type="button" class="btn btn-danger">Remove</button></a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div><br/>
+    </div>
+      <!--card3-->
+    <div class="row">
+      <div class="col-md-1"></div>
+      <div class="col-md-5">
+        <div class="card">
+          <img class="card-img-top" src="C:\Users\vanda\OneDrive\Desktop\HTML files\NEXUS\brainy.jpg" height="150" alt="Brainy image">
+          <div class="card-body">
+            <h5 class="card-title">Brainy</a></h5>
+          </div>
+          <div class="card-footer">
+            <div class="row">
+              <div class="col-md-8">
+                <a href=""><button type="button" class="btn btn-secondary">Show</button></a>
+                <a href=""><button type="button" class="btn btn-secondary">Share</button></a>
+                <a href=""><button type="button" class="btn btn-danger">Remove</button></a>
+              </div>
+            </div>
+          </div>
+        </div><br/>
+      </div><br/>
+      <!--card4-->
+      <div class="col-md-5">
+        <div class="card">
+          <img class="card-img-top" src="C:\Users\vanda\OneDrive\Desktop\HTML files\NEXUS\travel.jpg" height="150" alt="Travelling image">
+          <div class="card-body">
+            <h5 class="card-title">Travel</a></h5>
+          </div>
+          <div class="card-footer">
+            <div class="row">
+              <div class="col-md-8">
+                <a href=""><button type="button" class="btn btn-secondary">Show</button></a>
+                <a href=""><button type="button" class="btn btn-secondary">Share</button></a>
+                <a href=""><button type="button" class="btn btn-danger">Remove</button></a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div><br/>
+    </div></div>
+  </div>
+  
+  <footer>
+    <p>
+      <div class="row">
+        <div class="col-md-1"></div>
+        <div class="col-md-8"><br/>
+          <img src="C:\Users\vanda\OneDrive\Desktop\HTML files\NEXUS\Nexus logo.png" style="width:60px" alt="NEXUS Logo">
+        </div>
+        <div class="col-md-3"><br/><b>About</b><br/>This is the categories page.<br/>
+          <div class="col-md-1"></div>
+        </div>
+      </div>
+    </p>
+    <center>© NEXUS 2023</center>
+  </footer>
+
+</body>
+</html>
