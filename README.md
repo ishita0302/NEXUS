@@ -1,2 +1,2 @@
 # NEXUS
-Mini project.
+Mini project
