@@ -1,5 +1,5 @@
-# NEXUS
-Mini project - It is a single platform where any URL links / Document links can be stored, categorized and shared.
+# NEXUS - a demo
+It is a single platform where any URL links / Document links can be stored, categorized and shared.
 
 Connected Webpages using HTML and CSS. 
 
